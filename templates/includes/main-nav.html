@@ -23,6 +23,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="Pitched-link">
                 <a href="{% url 'products' %}?category=heritage_pitched" class="dropdown-item">For Heritage Buildings</a>
                 <a href="{% url 'products' %}?category=modern_pitched" class="dropdown-item">Contemporary Range</a>
+                <a href="{% url 'products' %}?category=modern_pitched,heritage_pitched" class="dropdown-item">All Pitched Rooflight</a>
             </div>
         </li>
 
@@ -33,6 +34,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="flat-link">
                 <a href="{% url 'products' %}?category=heritage_flat" class="dropdown-item">For Heritage Buildings</a>
                 <a href="{% url 'products' %}?category=modern_flat" class="dropdown-item">Contemporary Range</a>
+                <a href="{% url 'products' %}?category=modern_flat,heritage_flat" class="dropdown-item">All Flat Rooflights</a>
             </div>
         </li>
         <li>
