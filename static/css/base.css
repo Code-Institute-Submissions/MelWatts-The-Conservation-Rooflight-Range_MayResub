@@ -6,7 +6,7 @@ body {
     background: url('/media/Conservation.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #465957;
     font-family: 'Lora';
 }
 
@@ -28,13 +28,13 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: #465957;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: #465957;
     color: white;
 }
 
@@ -49,15 +49,15 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #465957 !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid 465957 !important;
 }
 
-.bg-black {
-    background: #000 !important;
+.bg-green {
+    background: #465957 !important;
 }
 
 .overlay {
@@ -71,7 +71,7 @@ body {
 }
 
 a.category-badge > span.badge:hover {
-    background: #212529 !important;
+    background: #465957 !important;
     color: #fff !important;
 }
 
