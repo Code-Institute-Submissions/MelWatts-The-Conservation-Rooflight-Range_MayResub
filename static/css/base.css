@@ -10,6 +10,16 @@ body {
     font-family: 'Lora';
 }
 
+.about_us {
+    background-color: #465957;
+    color:#fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
