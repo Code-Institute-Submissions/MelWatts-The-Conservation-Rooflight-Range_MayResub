@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'stories',
+
 
     # Other
     'crispy_forms',
