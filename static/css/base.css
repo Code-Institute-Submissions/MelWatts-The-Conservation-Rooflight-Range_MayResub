@@ -284,6 +284,30 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+.social-media {
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    background: #465957 !important;
+    height: 150px;
+    z-index: 1;
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 140%;
+    margin: 1%;
+    padding: 20px;
+    color: #fff;
+}
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
