@@ -24,9 +24,14 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.welcome {
+    margin-left: 25px;
+}
+
 .info-container {
     background-color: #fff;
     padding: 50px;
+    text-align: center;
 }
 
 /* from Bulma */
@@ -337,6 +342,8 @@ footer {
     .header-container {
         padding-top: 140px;
     }
+    
+    h1 {font-size:1.5rem;}
 
     body {
         height: calc(100vh - 140px);
