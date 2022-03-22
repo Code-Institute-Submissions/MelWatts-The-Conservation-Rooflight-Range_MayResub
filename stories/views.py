@@ -1,6 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
 from .models import Stories
-
 from .forms import StoryForm
 
 # Create your views here.
@@ -32,7 +32,16 @@ def story_detail(request, story_id):
 
 def add_stories(request):
     """ Add a story to customer stories"""
-    form = StoryForm()
+    if request.method == 'POST':
+        form = StoryForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Great! Thanks for the Story!')
+            return redirect(reverse('add_story'))
+        else:
+            messages.error(request, 'Opps! Please check your form is valid.')
+    else:
+        form = StoryForm()
     template = 'stories/add_story.html'
     context = {
         'form': form,

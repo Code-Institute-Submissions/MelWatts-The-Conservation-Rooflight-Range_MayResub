@@ -2,7 +2,7 @@
 
 # The Conservation Rooflight Range
 
-This project The Conservation Rooflight Range, is a webiste selling premium rooflights for heritage buildings, There will be a login and sign up function
+This project The Conservation Rooflight Range, is a webiste selling premium rooflights for heritage buildings, There will be a login and sign up function along with the user being able to upload their own story.
 
 ## Showcase
 ![Showcase-screenshot](media/homepage.JPG)
@@ -38,7 +38,7 @@ A deployed version of my website can be found [here.] ()
 User stories
 ## First time visitor goals
 
-* As a first time visitor, my aim is to feel engaged and drwn in by the big imagery.
+* As a first time visitor, my aim is to feel engaged and drawn in by the big imagery.
 * As a first time visitor, my aim is to be able to find what I am looking for very easily with an simple navigation through the site.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact forms and to sign up for a free trial.
