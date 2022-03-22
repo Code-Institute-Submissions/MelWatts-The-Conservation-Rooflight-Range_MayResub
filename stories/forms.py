@@ -1,16 +1,17 @@
 from django import forms
 from .models import Stories, Category
+# from .widgets import CustomClearableFileInput
 
 
 class StoryForm(forms.ModelForm):
 
     class Meta:
-        model = Stories()
+        model = Stories
         fields = '__all__'
 
-    image = forms.ImageField(label='Image',
-                             required=False,
-                             widget=CustomClearableFileInput)
+    # image = forms.ImageField(label='Image',
+    #                          required=False,
+    #                          widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

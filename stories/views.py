@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Stories
 
-from .models import StoryForm
+from .forms import StoryForm
 
 # Create your views here.
 
