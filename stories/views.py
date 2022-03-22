@@ -1,6 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Stories
 
+from .models import StoryForm
+
 # Create your views here.
 
 
@@ -26,3 +28,14 @@ def story_detail(request, story_id):
     }
 
     return render(request, 'stories/story_detail.html', context)
+
+
+def add_stories(request):
+    """ Add a story to customer stories"""
+    form = StoryForm()
+    template = 'stories/add_story.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
