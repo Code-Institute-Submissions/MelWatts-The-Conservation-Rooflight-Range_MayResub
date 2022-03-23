@@ -183,7 +183,7 @@ input[name='q']::placeholder {
 }
 
 .arrow-danger {
-    border-bottom-color: #dc3545 !important;
+    border-bottom-color: #465957 !important;
 }
 
 .arrow-warning {
@@ -289,12 +289,12 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: #465957;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #465957;
+    border-color: #465957;
     border-radius: 0;
 }
 
