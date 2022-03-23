@@ -48,3 +48,28 @@ def add_stories(request):
     }
 
     return render(request, template, context)
+
+
+def edit_story(request, story_id):
+    """ User to edit thier story """
+
+    story = get_object_or_404(Stories, pk=story_id)
+    if request.method == 'POST':
+        form = StoryForm(request.POST, request.FILES, instance=story)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Story updated, well done!')
+            return redirect(reverse('story_detail', args=[story.id]))
+        else:
+            messages.error(request, 'Opps! Please check your form is valid.')
+    else:
+        form = StoryForm(instance=story)
+        messages.info(request, f'you are editing {story.name}')
+
+    template = 'stories/edit_story.html'
+    context = {
+        'form': form,
+        'story': story,
+    }
+
+    return render(request, template, context)
