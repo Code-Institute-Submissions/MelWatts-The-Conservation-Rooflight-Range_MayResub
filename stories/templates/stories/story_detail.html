@@ -41,6 +41,12 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
+                    {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'edit_story' story.id %}">Edit</a> | 
+                            <a class="text-danger" href="{% url 'delete_story' story.id %}">Delete</a>
+                        </small>
+                    {% endif %}
                     <p class="mt-3">{{ story.description }}</p>
                 </div>
             </div>

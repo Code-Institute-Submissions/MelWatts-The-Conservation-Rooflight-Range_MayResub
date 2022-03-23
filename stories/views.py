@@ -35,9 +35,9 @@ def add_stories(request):
     if request.method == 'POST':
         form = StoryForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            story = form.save()
             messages.success(request, 'Great! Thanks for the Story!')
-            return redirect(reverse('add_story'))
+            return redirect(reverse('story_detail', args=[story.id]))
         else:
             messages.error(request, 'Opps! Please check your form is valid.')
     else:
@@ -73,3 +73,11 @@ def edit_story(request, story_id):
     }
 
     return render(request, template, context)
+
+
+def delete_story(request, story_id):
+    """ User to delate a story """
+    story = get_object_or_404(Stories, pk=story_id)
+    story.delete()
+    messages.success(request, 'Your story is deleted!')
+    return redirect(reverse('stories'))
