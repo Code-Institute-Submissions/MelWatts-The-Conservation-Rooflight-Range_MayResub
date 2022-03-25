@@ -1,11 +1,11 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# The Conservation Rooflight Range
+# The Conservation Rooflight Range (The Rooflight Company)
 
-This project The Conservation Rooflight Range, is a webiste selling premium rooflights for heritage buildings, There will be a login and sign up function along with the user being able to upload their own story.
+This project The Conservation Rooflight Range, is a webiste selling premium rooflights for both heritage and modern buildings, There will be a login and sign up function along with the user being able to upload their own story, plus be able to edit or delete also.
 
 ## Showcase
-![Showcase-screenshot](media/homepage.JPG)
+![Showcase-screenshot](media/screenshot.JPG)
 
 A deployed version of my website can be found [here.] ()
 
@@ -16,6 +16,7 @@ A deployed version of my website can be found [here.] ()
 * [Strategy](#strategy)
   + [User-needs](#user-needs)
   + [Business-vision](#business-vision)
+  + [seo](#seo)
 * [Scope](#scope)
 * [Structure](#structure)
 * [Wireframes](#wireframes)
@@ -35,36 +36,43 @@ A deployed version of my website can be found [here.] ()
 
 ## UX
 
-User stories
+User stories can be found [here](media/User_journey.JPG) 
+
+
 ## First time visitor goals
 
 * As a first time visitor, my aim is to feel engaged and drawn in by the big imagery.
 * As a first time visitor, my aim is to be able to find what I am looking for very easily with an simple navigation through the site.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact forms and to sign up for a free trial.
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to register a new account so I can comment on the blog posts.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to clearly see all products on offer.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site and filter down the products to suit my own needs.
+* As a first Time Visitor, I want to have all the infomation I need to make a decision to whether I purchase a product or not.
+* As a first Time Visitor, I want to have the ability to create my own account.
+* As a first Time Visitor, I want to have the ability to read other users stories.
+
 
 ## Returning visitor goals:
 
 * As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
-* As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
-* As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
-* As a Returning Visitor, I want visitors to feel reasurred if they feel nervous about contacting us to discuss thier weight concerns.
-* As a returning visitor, I want to check if there has been any more blogs to rad and comments.
+* As a returning visitor, I want a returning visitor be reasured if they've forgottten their pasword to their account they can eaily reset it.
+* As a Returning Visitor, I want visitors to upload their own story and be able to edit or delete also.
+* As a Returning Visitor, I want visitors to feel reasurred they are buying in a safe environment.
+* As a returning visitor, I want to check if there has been any more Stories uploaded to read.
 
 
-The end goal of the project is to help people to reach their weight and fitness goal with confidence .
+The end goal of the project is to sell a high end premium product.
 
 ### UX stories
 
-* As a user I want to find help to improve my fitness.
-* As a user I want to find help and advice to reach my weight loss goals.
-* As a user I want to know what help or support is out there.
-* As a user I want to find out what professional advice is available to me.
-* As a user I want to find out some tips to keep to maintain my weight and fitness levels.
-* As a user I would like to feel I am not alone and there is help for me.
-* As a user I would like to be educated in various nutrtion benefits to help with my personal goals.
-* As a user I would like to be register for my own account and to keep up with blogs posst.
+Buyer Journey can be found [here](media/Buyer_journey_map.JPG)
+
+* As a user I want to find a high end product for my property.
+* As a user I want to log in to my own account.
+* As a user I want to upload, edit or delete my own personal story.
+* As a user I want to find out more about the company I may buy from.
+* As a user I want to be confident my purchase is done in a safe environment.
+* As a user I would like to filter through the products knowing I am buying the correct item for my needs.
+
 
 ## Strategy
 
@@ -75,42 +83,43 @@ The site navigation needs to be optimal to move to the preferred section of the 
 
 ### Business vision
 
-The purpose of this project is to give users peace of mind that help and advice or just something to do socially, is out there. 
-The site also gives the users easy access to personal trainers and view specific classes for their needs. Have a option to register for an account, with further login / log out functionality. 
-The ability to read, like and leave a comment on recent blog posts.
+The purpose of this project is to give users ability to create their own account, upload their own stories as well as search throguh products for sale, filter them down my heritage or modern types or building alomg with if they need a flat or pitcxhed rooflight. 
+The site also gives the users the option to register for an account, with further login / log out functionality. 
+The ability to read, like and leave a comment on recent Customer Stories.
+
+### SEO
+
+SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better. my key words can be found [here](media/keywords.JPG)
 
 ## Scope
 
-I want my users to feel they are not alone, that  there is help to get them to thier weight and fitness goal or a place to meet likeminded friends whilst getting fit. 
+I want my users to feel reassured they are buying a high end product for their property. 
 
 ## Structure
 
-This project is a 9 page website. With a simple home page where the user can sign up for a free 7 day trial. A find us page whihc has a googles map, a meet the trainers page with a small intro to 3 trainers and a classes drop-down with 3 pages of Pilates, Spin and Circuits classes, plus a blog page to read, like and leave a comment on the blog. A register for an account page with a subsiquence login / log out function.
+This project is a 1 main home page website. With button to take to the shop now page which shows all products, from there you can filter through trh ranges from pitched and flat roofs to Heritage and modern style homes. A menu to Customers stories, wher you can read throguh prior custoners purchased and experiences within the company and see the fnished rooflights installed. A register for an account page with a subsiquence login / log out function is also on the nav bar along with the funsction for the user to upload thier own story..
 
 ## Wireframes
 
-The original wireframes can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1640098783/wireframe_ncayoh.jpg)
+The original wireframes can be found [here](media/wireframe.JPG)
 
-The Tablet wireframe can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1639407413/tablet_wireframe_cp5hhw.jpg)
+The Tablet wireframe can be found [here](media/tablet_wireframe.JPG)
 
-The Mobile wireframe can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1639407411/mobile_wireframe_gg4lhu.jpg)
+The Mobile wireframe can be found [here](media/mobile_wireframe.JPG)
 
 ### Changes to wireframes
 
-My site has changed considerably from the intitial wireframe, as I had my initial idea and as I started to build my page it took me in another direction, the more I descovered new methods.
+My site has changed considerably from the intitial wireframe, as I had my initial idea and as I started to build my page it took me in another direction, the more I descovered new methods and styles.
 
 
 ## Features
 
 This section contains some of the features this project contains:
-* The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a sign up button for a 7 day free trial.
+* The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a shope now button.
 * Scrolling down to a short paragraph, then an image carosel
-* Scrolling down there are three sections with a short paragraoh on the benefits of Weigh lifting, Fitness in general and nutrition.
-* Followed by a footer. 
-* There are 8 additional pages a 'Find Us' page with a map and contact details
-* A meet the trainers page with 3 sections and bio's of 3 personal trainers.
-* A blogs page where the user (if regitered) can like, or leave a comment on each blog.
-* A drop down menu of 3 addditional pages of classes, with a small description.
+* Scrolling down to an about the company section.
+* Followed by a footer with social media links adn an option to sign up to Mailchimp. 
+* There ais an addition shop page where the user has the option to browse through all ranges or filter down to meet their specific needs
 * A Register for an account page where the user will submit their personal details to open an account.
 * Once registered, the user can then have the option to log in in future, or log out.
 
@@ -133,16 +142,14 @@ This project was build using the following technologies:
 * FontAwesome: used for icons in the logo. [FontAwesome](https://fontawesome.com/)
 * Coolors: to chose a color scheme. [Coolors](https://coolors.co/palettes/trending)
 * Responsinator to check my website on all devices. [Responsinator](https://www.responsinator.com/).
-* Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
 * README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
 * Adobe Photoshop for editing my Photos
-* Unsplash for the free images
+* All Medai in this project are taken from my current employment The Rooflight Company for educational purposes only, this website will not be used as part aof my role within the company.
 * Adobe InDesign for my Wireframe
 * Bootstrap Library
-* Geek for Geeks for log in Django help
 * EmailJS
-* Cloudinary for image storage.
 * Heroku
+* AWS for static file storage
 
 ### Testing
 
@@ -164,7 +171,7 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 * The site has been designed to be fluid and informative, easy to navigate. Each link describes what section the visitor will end up on.
 * As a First Time Visitor, I want them to locate our social media links to see our following on social media to determine how trusted and known we are.
 
-* Once the new visitor has read through the site, feel confident they can contact us using teh call to action modal on the home page.
+* Once the new visitor has read through the site, feel confident they can contact us using the call to action modal on the home page.
 * The user can also scroll to the bottom of any page on the site to locate the social media links in the footer.
 
 ## Returning Visitor Goals
@@ -260,20 +267,34 @@ I had successfully install a Googele Map API into my project and an Sign up for 
 
 ## Deployment
 
-This project is deployed using gitpod in combination with github pages and Heroku.
+This project is deployed using Heroku.
 I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit.
 
-### GitHub Pages
 
 ## The project was deployed to Heroku
 
-1. Log in to Heroku and locate the GitHub Repository
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. Log in to Heroku and create a new app
+2. On the resources tab provision a new prostgres database.
+3. Back in gitpod and install dj_database_url and psycopg2-binary.
+4. Freeze the requirements.
+5. Still in Gitpod, got to settings.py import dj_database_url, comment out the default configuration and replace the default database with a call to dj_database_url.parse, give it the database URL from Heroku by going to settings tab in Heroku and reveal Config Vars.
+6. Show Migrations, check all is ok then migrate.
+7. load data catergories first then load products.
+8. Create superuser for Django
+9. Delete the call to dj_database_url.parse, and comment back in the default configuration.
+10. Create an 'if' statement in Settings.py so when the app is running on Heroku where the database URL environment variable will be defined.
+11. Install Gunicorn then freeze this into requirements.
+12. Create the Procfile to tell Heroku to create a web dyno. Which will run Gunicorn and serve our django app.
+13. Temporarily disable collectstatic. use Heroku config set, disable collectstatic equals 1 using --app as I have more than one app.
+14. Add allowed host name in settings.py plus local host.
+15. Add and commit the changes in gitpod, git push heroku master to deploy to Heroku
+16. Set to automatically deploy when pushed to github by going to Heroku app - deploy method set to Github, search for the repository, click connect. Finally enable automative deploy
+17. Create a Secret key and add it to config variables in Heroku
+18. Setting.py replace the Secret key setting with a call to get it from the environment and use an empty string.
+19. Set DEBUG to be true only if there's a variable called development in the environment.
+20. Commit and push to Github
+21. Go to Heroku check the build is in progress and all is ok.
+
 
 ## Forking the GitHub Repository
 
@@ -308,23 +329,22 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 * Fontawesome for use from their icons. [Fontawesome](https://fontawesome.com/).
 * Responsinator to check my website on all devices. [Responsinator](https://www.responsinator.com/).
-* Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
 * README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
 * Bootstrap for templates and components [https://getbootstrap.com/docs/5.1/getting-started/introduction/].
 
 ## Content
 
-All content in this project are taken from researching the website.
+All content in this project are taken from my current employment The Rooflight Company for educational purposes only, this website will not be used as part aof my role within the company..
 
 ## Media 
 
-* All images where taken  [Pexels](https://www.pexels.com/nl-nl/).
-* All video are from [YouTube](https://www.youtube.com/). 
+* All Medai in this project are taken from my current employment The Rooflight Company for educational purposes only, this website will not be used as part aof my role within the company..
+ 
 
 ## Acknowledgements 
 
-I would like to acknowledge the tutor support available. They reassured me when I was doubtful of myself and my skills, and pointed me in teh direction of some useful information during our tutoring sessions about things they saw I was struggling with. Especially during the Django project and intergrating the API and email send into my Django project.
+I would like to acknowledge the tutor support available. They reassured me when I was doubtful of myself and my skills, and pointed me in the direction of some useful information during our tutoring sessions about things they saw I was struggling with. Especially during the Django project and creating models and views for the stories section.
 
-**This project was created for educational purposes only, credit for all images goes to their owners**
+**This project was created for educational purposes only**
 
 **Created by Mel Watts**
