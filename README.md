@@ -163,15 +163,15 @@ Starting this project I know what my target audience would like to see on a webs
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Sign up for a free 7 day trial" Call to action button.
+* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Shop now" Call to action button.
 * The main points are made immediately with the navigation bar and call to action button.
-* The user has three options, click the call to action buttons, scroll through the information and tips or click on the navigation bar to go directly to the place they need.
+* The user has the option to stay on the home page and read a bit about the company, click on the shop now button to take them to all products, create an account or filter throguh the products for their specific needs.
 * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
 * The site has been designed to be fluid and informative, easy to navigate. Each link describes what section the visitor will end up on.
 * As a First Time Visitor, I want them to locate our social media links to see our following on social media to determine how trusted and known we are.
 
-* Once the new visitor has read through the site, feel confident they can contact us using the call to action modal on the home page.
+* Once the new visitor has read through the site..
 * The user can also scroll to the bottom of any page on the site to locate the social media links in the footer.
 
 ## Returning Visitor Goals
@@ -259,10 +259,6 @@ Once I had a general idea on how to run testing I followed all steps for each of
 #### Django 
 
 I wasn't very confident in my Django project, therfore having to delete it all and starting again, after lots of tutor help and my fellow coders on slack I managed to successfully install my project for a blog and log in log out funtion. Also following the, 'I think therefor I blog', walkthrough helped massively.
-
-#### Intergrating Google Maps and Email JS into Django 
-
-I had successfully install a Googele Map API into my project and an Sign up for a free trial email via EmailJS, however once I install my Django blog project none of my original functions worked, after some tutor advice and searching on slack and geek for geeks. I successfully managed to intergrate my API into Django project.
 
 
 ## Deployment

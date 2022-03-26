@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+import dj_database_url
 
 from pathlib import Path
 
@@ -121,11 +122,15 @@ WSGI_APPLICATION = 'conservation.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default': dj_database_url.parse('postgres://mwsuiqmhcfcohy:e9ab0743a3a1ffdeecbc0b5411dde8a220a0fe97aae9b883df09a47726f550d6@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/d7lumbg8dt8gnn')
 }
 
 
