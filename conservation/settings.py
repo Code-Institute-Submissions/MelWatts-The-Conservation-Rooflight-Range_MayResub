@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-!%#!+eyk%z2-9qg6gwh&lx!13rqfh4nh#=-zii2d4521w_*oq9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['rooflight-company.heroku.com', 'localhost']
 
 
 # Application definition
@@ -119,19 +119,20 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'conservation.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+Database
+https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
-DATABASES = {
-    'default': dj_database_url.parse('postgres://mwsuiqmhcfcohy:e9ab0743a3a1ffdeecbc0b5411dde8a220a0fe97aae9b883df09a47726f550d6@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/d7lumbg8dt8gnn')
-}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
