@@ -1,1 +1,1 @@
-web: gunicorn conservation.wsgi.application
+web: gunicorn conservation.wsgi
