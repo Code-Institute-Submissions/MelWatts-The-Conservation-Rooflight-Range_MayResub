@@ -22,10 +22,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!%#!+eyk%z2-9qg6gwh&lx!13rqfh4nh#=-zii2d4521w_*oq9'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['rooflight-company.heroku.com', 'localhost']
 
@@ -119,8 +120,8 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'conservation.wsgi.application'
 
 
-Database
-https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+# Database
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
