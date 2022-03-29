@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .models import Stories
+from .models import Stories, Comment
 from .forms import CommentForm
 
 # Create your views here.
@@ -24,28 +24,33 @@ def story_detail(request, story_id):
     A view to show individual story detail
     A view to leave a comment on indivdual stories 
     """
+    story = get_object_or_404(Stories, pk=story_id)
     if request.method == "POST":
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
-            comment_form.instance.email = request.user.email
-            comment_form.instance.name = request.user.username
-            comment = comment_form.save(commit=False)
-            comment.post = comment
-            comment.save()
+            name = request.POST['name']
+            email = request.POST['email']
+            body = request.POST['body']
+            Comment(name=name, email=email, body=body, story=story).save()
+            # comment_form.instance.email = request.user.email
+            # comment_form.instance.name = request.user.username
+            # comment = comment_form.save(commit=False)
+            # comment.post = comment
+            # comment.save()
         else:
             comment_form = CommentForm()
-
+        comments = story.comments.all().order_by("-created_on")
         return render(
             request,
-            "story_detail.html",
+            "stories/story_detail.html",
             {
                 "comments": comments,
                 "commented": True,
                 "comment_form": comment_form,
+                "story": story,
             },
         )
     else:
-        story = get_object_or_404(Stories, pk=story_id)
         comments = story.comments.all().order_by("-created_on")
         comment_form = CommentForm()
 
