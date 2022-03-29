@@ -95,6 +95,11 @@ body {
     color: white;
 }
 
+.box {
+    display: contents;
+    border: #000;
+}
+
 .text-black {
     color: #465957 !important;
 }

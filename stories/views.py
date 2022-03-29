@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import Stories
-from .forms import StoryForm
+from .forms import CommentForm
 
 # Create your views here.
 
@@ -17,18 +17,46 @@ def all_stories(request):
     }
 
     return render(request, 'stories/stories.html', context)
-    
+
 
 def story_detail(request, story_id):
-    """ A view to show individual story detail """
+    """ 
+    A view to show individual story detail
+    A view to leave a comment on indivdual stories 
+    """
+    if request.method == "POST":
+        comment_form = CommentForm(data=request.POST)
+        if comment_form.is_valid():
+            comment_form.instance.email = request.user.email
+            comment_form.instance.name = request.user.username
+            comment = comment_form.save(commit=False)
+            comment.post = comment
+            comment.save()
+        else:
+            comment_form = CommentForm()
 
-    story = get_object_or_404(Stories, pk=story_id)
+        return render(
+            request,
+            "story_detail.html",
+            {
+                "comments": comments,
+                "commented": True,
+                "comment_form": comment_form,
+            },
+        )
+    else:
+        story = get_object_or_404(Stories, pk=story_id)
+        comments = story.comments.all().order_by("-created_on")
+        comment_form = CommentForm()
 
-    context = {
-        'story': story,
-    }
+        context = {
+            'story': story,
+            'comments': comments,
+            'comment_form': comment_form,
+        }
 
-    return render(request, 'stories/story_detail.html', context)
+        return render(request, 'stories/story_detail.html', context)
+
 
 @login_required
 def add_stories(request):
@@ -38,7 +66,7 @@ def add_stories(request):
         return redirect(reverse('home'))
 
     if request.method == 'POST':
-        form = StoryForm(request.POST, request.FILES)
+        form = CommentForm(request.POST, request.FILES)
         if form.is_valid():
             story = form.save()
             messages.success(request, 'Great! Thanks for the Story!')
@@ -46,13 +74,14 @@ def add_stories(request):
         else:
             messages.error(request, 'Opps! Please check your form is valid.')
     else:
-        form = StoryForm()
+        form = CommentForm()
     template = 'stories/add_story.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_story(request, story_id):
@@ -63,7 +92,7 @@ def edit_story(request, story_id):
 
     story = get_object_or_404(Stories, pk=story_id)
     if request.method == 'POST':
-        form = StoryForm(request.POST, request.FILES, instance=story)
+        form = CommentForm(request.POST, request.FILES, instance=story)
         if form.is_valid():
             form.save()
             messages.success(request, 'Story updated, well done!')
@@ -71,7 +100,7 @@ def edit_story(request, story_id):
         else:
             messages.error(request, 'Opps! Please check your form is valid.')
     else:
-        form = StoryForm(instance=story)
+        form = CommentForm(instance=story)
         messages.info(request, f'you are editing {story.name}')
 
     template = 'stories/edit_story.html'
@@ -81,6 +110,7 @@ def edit_story(request, story_id):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def delete_story(request, story_id):
@@ -92,28 +122,3 @@ def delete_story(request, story_id):
     story.delete()
     messages.success(request, 'Your story is deleted!')
     return redirect(reverse('stories'))
-
-# @login_required
-# def story_detail(request, slug):
-#     template_name = 'story_detail.html'
-#     post = get_object_or_404(Post, slug=slug)
-#     comments = post.comments.filter(active=True)
-#     new_comment = None
-#     # Comment posted
-#     if request.method == 'POST':
-#         comment_form = CommentForm(data=request.POST)
-#         if comment_form.is_valid():
-
-#             # Create Comment object but don't save to database yet
-#             new_comment = comment_form.save(commit=False)
-#             # Assign the current post to the comment
-#             new_comment.post = post
-#             # Save the comment to the database
-#             new_comment.save()
-#     else:
-#         comment_form = CommentForm()
-
-#     return render(request, template_name, {'post': post,
-#                                            'comments': comments,
-#                                            'new_comment': new_comment,
-#                                            'comment_form': comment_form})

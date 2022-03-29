@@ -9,8 +9,8 @@ class StoryForm(forms.ModelForm):
         fields = '__all__'
     
     image = forms.ImageField(label='Image',
-                         required=False,
-                            widget=CustomClearableFileInput)
+                        required=False,
+                        widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -21,7 +21,7 @@ class StoryForm(forms.ModelForm):
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
     
-# class CommentForm(forms.ModelForm):
-#     class Meta:
-#         model = Comment
-#         fields = ('name', 'email', 'body')
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('name', 'email', 'body',)

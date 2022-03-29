@@ -5,12 +5,12 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'Categories'
-      
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     def get_friendly_name(self):
         return self.friendly_name
@@ -36,15 +36,16 @@ class Stories(models.Model):
 
 
 class Comment(models.Model):
-    story = models.ForeignKey(Stories, on_delete=models.CASCADE, related_name='comments')
+    story = models.ForeignKey(Stories, on_delete=models.CASCADE,
+                             related_name="comments")
     name = models.CharField(max_length=80)
     email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    active = models.BooleanField(default=False)
+    approved = models.BooleanField(default=False)
 
     class Meta:
-        ordering = ['created_on']
+        ordering = ["created_on"]
 
     def __str__(self):
-        return 'Comment {} by {}'.format(self.body, self.name)
+        return f"Comment {self.body} by {self.name}"
