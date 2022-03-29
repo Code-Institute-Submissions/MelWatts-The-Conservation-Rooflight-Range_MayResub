@@ -1,10 +1,9 @@
 from django import forms
 from .widgets import CustomClearableFileInput
-from .models import Stories, Category
+from .models import Stories, Category, Comment
 
 
 class StoryForm(forms.ModelForm):
-
     class Meta:
         model = Stories
         fields = '__all__'
@@ -21,3 +20,8 @@ class StoryForm(forms.ModelForm):
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
+    
+# class CommentForm(forms.ModelForm):
+#     class Meta:
+#         model = Comment
+#         fields = ('name', 'email', 'body')
