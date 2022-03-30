@@ -6,7 +6,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #465957;
-    font-family: 'Lora';
+    font-family: 'Lora', sans-serif;
 }
 
 .hero-container {
@@ -331,10 +331,8 @@ footer {
 /* Mailchimp*/
 #mc_embed_signup {
     background:#465957; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif;  
+    font:14px 'Lora', sans-serif;  
     width:600px;
-    text-align: center;
 }
 
 /* fixed top navbar only on medium and up */
@@ -358,11 +356,11 @@ footer {
         padding-top: 140px;
     }
     
-    ody {
+    body {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
+    .display-0.logo-font.text-black {
         font-size: 2rem;
     }
 

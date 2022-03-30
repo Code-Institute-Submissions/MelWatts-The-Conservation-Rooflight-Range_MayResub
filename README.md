@@ -106,11 +106,11 @@ This project is a 1 main home page website. With button to take to the shop now 
 
 ## Wireframes
 
-The original wireframes can be found [here](media/wireframe.JPG)
+The original wireframes for home page can be found [here](media/wireframe.JPG)
 
-The Tablet wireframe can be found [here](media/tablet_wireframe.JPG)
+The Tablet wireframe for home page can be found [here](media/tablet_wireframe.JPG)
 
-The Mobile wireframe can be found [here](media/mobile_wireframe.JPG)
+The Mobile wireframe for home page can be found [here](media/mobile_wireframe.JPG)
 
 ### Changes to wireframes
 
@@ -122,6 +122,7 @@ My site has changed considerably from the intitial wireframe, as I had my initia
 This section contains some of the features this project contains:
 * The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a shope now button.
 * Scrolling down to a short paragraph, then an image carosel
+* Scrolling further a short paragraph regarding building regs and a link to a government website about Building regulations and laws.
 * Scrolling down to an about the company section.
 * Followed by a footer with social media links adn an option to sign up to Mailchimp. 
 * There ais an addition shop page where the user has the option to browse through all ranges or filter down to meet their specific needs
@@ -152,9 +153,9 @@ This project was build using the following technologies:
 * All Medai in this project are taken from my current employment The Rooflight Company for educational purposes only, this website will not be used as part aof my role within the company.
 * Adobe InDesign for my Wireframe
 * Bootstrap Library
-* EmailJS
 * Heroku
 * AWS for static file storage
+* Mailchimp 
 
 ### Testing
 
