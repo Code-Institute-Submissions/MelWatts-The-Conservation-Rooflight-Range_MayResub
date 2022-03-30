@@ -32,11 +32,6 @@ def story_detail(request, story_id):
             email = request.POST['email']
             body = request.POST['body']
             Comment(name=name, email=email, body=body, story=story).save()
-            # comment_form.instance.email = request.user.email
-            # comment_form.instance.name = request.user.username
-            # comment = comment_form.save(commit=False)
-            # comment.post = comment
-            # comment.save()
         else:
             comment_form = CommentForm()
         comments = story.comments.all().order_by("-created_on")
