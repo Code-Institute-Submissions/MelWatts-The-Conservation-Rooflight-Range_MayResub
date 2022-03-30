@@ -89,7 +89,12 @@ The ability to read, like and leave a comment on recent Customer Stories.
 
 ### SEO
 
-SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better. my key words can be found [here](media/keywords.JPG)
+SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better. 
+
+
+* my key words can be found [here](media/keywords.JPG)
+* Content is king research can be found [here](media/contentisKing.JPG)
+* Marketing types research can be found [here](media/Marketingtypes.JPG)
 
 ## Scope
 
