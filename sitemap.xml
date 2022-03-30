@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://rooflight-company.herokuapp.com/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/bag/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=heritage_pitched</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=modern_pitched</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=modern_pitched,heritage_pitched</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=heritage_flat</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=modern_flat</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=modern_flat,heritage_flat</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/4/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=412mm%20x%20520mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/5/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=463mm%20x%20622mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/2/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=565mm%20x%20725mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/3/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=565mm%20%20x%201028mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/6/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=615mm%20x%20875mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/7/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=717mm%20xx%201028mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/1/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1021mm%20x%20%20725mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/8/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=717mm%20x%201180mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/15/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=625mm%20x%20625mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/9/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=869mm%20x%201028mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/11/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=717mm%20x%201333mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/38/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1000mm%20x%201000mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/39/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1200mm%20x%201000mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/10/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1021mm%20x%201180mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/36/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=882mm%20x%20882mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/12/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1021mm%20x%201333mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/13/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=717mm%20x%201635mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/28/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=797mm%20x%201108mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/42/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1500mm%20x%201000mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/40/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1200mm%20x%201200mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/27/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=727mm%20x%201422mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/29/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=882mm%20x%201222mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/33/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1222mm%20x%20882mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/43/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=2000mm%20x%201000mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/19/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=925mm%20x%20625mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/37/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1207mm%20x%201207mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/14/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1021mm%20x%201635mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/41/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1500mm%20x%201500mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/30/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=882mm%20x%201717mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/34/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1717mm%20x%20882mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/31/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1101mm%20x%201413mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/16/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=925mm%20x%20925mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/20/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1225mm%20x%20625mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/35/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1802mm%20x%201207mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/32/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1207mm%20x%201802mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/45/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/21/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1225mm%20x%20925mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/46/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/47/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/17/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1225mm%20x%201225mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/25/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=925mm%20x%201525mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/22/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1525mm%20x%20925mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/23/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1525mm%20x%201225mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/44/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=3000mm%20x%201000mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/18/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1525mm%20x%201525mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/24/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=2025mm%20x%201025mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/26/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?size=1025mm%20x%202025mm</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/49/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/50/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/48/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/1/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/2/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/3/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/4/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/5/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/6/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/7/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/stories/8/</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rooflight-company.herokuapp.com/products/?category=modern_piched</loc>
+  <lastmod>2022-03-30T09:50:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

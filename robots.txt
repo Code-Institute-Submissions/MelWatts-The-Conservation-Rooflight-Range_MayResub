@@ -1,0 +1,3 @@
+User-agents: *
+Disallow:
+Sitemap: https://rooflight-company.herokuapp.com/sitemap.xml 
