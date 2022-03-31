@@ -20,9 +20,9 @@ def all_stories(request):
 
 
 def story_detail(request, story_id):
-    """ 
+    """
     A view to show individual story detail
-    A view to leave a comment on indivdual stories 
+    A view to leave a comment on indivdual stories
     """
     story = get_object_or_404(Stories, pk=story_id)
     if request.method == "POST":
