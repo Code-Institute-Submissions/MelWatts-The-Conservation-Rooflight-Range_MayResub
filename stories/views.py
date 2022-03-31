@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import Stories, Comment
-from .forms import CommentForm
+from .forms import CommentForm, StoryForm
 
 # Create your views here.
 
@@ -66,7 +66,7 @@ def add_stories(request):
         return redirect(reverse('home'))
 
     if request.method == 'POST':
-        form = CommentForm(request.POST, request.FILES)
+        form = StoryForm(request.POST, request.FILES)
         if form.is_valid():
             story = form.save()
             messages.success(request, 'Great! Thanks for the Story!')
@@ -74,7 +74,7 @@ def add_stories(request):
         else:
             messages.error(request, 'Opps! Please check your form is valid.')
     else:
-        form = CommentForm()
+        form = StoryForm()
     template = 'stories/add_story.html'
     context = {
         'form': form,
