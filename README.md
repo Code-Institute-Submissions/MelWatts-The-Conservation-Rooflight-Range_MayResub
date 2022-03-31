@@ -261,7 +261,6 @@ Once I had a general idea on how to run testing I followed all steps for each of
 ### Bugs need fixing
 * Favicon icon isn't showing on all pages although in the head of my base.html
 * Testing has been implemented but errors need further investigating. (I ran out of time I've had Covid - Sorry)
-* Css for mailchimp isn't pulling through to heroku deployed version but is showing on my local server, css for this is in teh head of teh base.html.
 
 #### Django 
 
