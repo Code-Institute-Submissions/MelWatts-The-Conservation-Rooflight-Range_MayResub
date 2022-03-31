@@ -156,12 +156,13 @@ This project was build using the following technologies:
 * Heroku
 * AWS for static file storage
 * Mailchimp 
+* Facebook [here](media/facebook.JPG) my page has since been diables by Facebook.
 
 ### Testing
 
 ## Testing Plan
 
-Starting this project I know what my target audience would like to see on a website with fitness as its topic (I'm a fitness freak as well). I took into consideration on what devices my users would like to see the website on. For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's. Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen. For large screens I used a 24 inch monitor. I wanted my page to be seen in a horizontal manner on larger screens a vertical manner for small screens, and on medium sized screens I am aiming to be in the middle of these two.
+Starting this project I know what my target audience would like to see on a website with buying a high end product as its topic. I took into consideration on what devices my users would like to see the website on. For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's. Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen. For large screens I used a 24 inch monitor. I wanted my page to be seen in a horizontal manner on larger screens a vertical manner for small screens, and on medium sized screens I am aiming to be in the middle of these two.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -176,17 +177,18 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 
 * The site has been designed to be fluid and informative, easy to navigate. Each link describes what section the visitor will end up on.
 * As a First Time Visitor, I want them to locate our social media links to see our following on social media to determine how trusted and known we are.
+* As a First time visitor, I want them to sign up to our mailing list in the footer and recieve our monthly newsletr rearding the company and any new products.
 
 * Once the new visitor has read through the site..
 * The user can also scroll to the bottom of any page on the site to locate the social media links in the footer.
 
 ## Returning Visitor Goals
 
-* As a Returning Visitor, I want the visitor to find the where they were previously and feel confident to make the step to improve their fitness or weight loss goals.
+* As a Returning Visitor, I want the visitor to find the where they were previously and feel confident to make the step to purchase.
 
-* As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
+* As a Returning Visitor, I want them to sign up to our newsletter via Mailchimp if they didn't as a new user.
 
-* The home page clearly highlights the "Sign up" Modal.
+* The home page clearly highlights the "Shop Now".
 
 * Here they can fill out the form on the page or alternatively they can message the organisation on social media.
 * The footer contains links to the organisations Facebook, Twitter and Instagram page.
@@ -197,10 +199,10 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 
 ## Frequent User Goals
 
-As a Frequent User, I want to check to see if there are any newly added help, advice or new trainers.
+As a Frequent User, I want to check to see if there are any newly added help, advice or new products.
 
 * The user would already be comfortable with the website layout and can easily click the call to action buttons or the navigation bar.
-* As a Frequent User, I want them to check to see if there are any new infomation, tips, help or trainers.
+* As a Frequent User, I want them to check to see if there are any new infomation, stories to read or comments.
 * The user would already be comfortable with the website layout and can easily click the links to external sites.
 * As a Frequent User, I want them to follow us on social media.
 
@@ -238,33 +240,32 @@ Testing is done in the following way:
 
 Once I had a general idea on how to run testing I followed all steps for each of my pages which gave me the following results:
 
-* JS - Map [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_map_i3cih9.jpg]
- * Undeclared 'google'
- * Undeclared 'document'
 
-* JS - Email Send [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_send_pkcevn.jpg]
-  * Undeclared 'emailjs'
-  * Expected property 'from_email' to be ordered before property 'from_email'
-  * Undeclared 'console'
-  * Undeclared 'console'
-  * I will further investigate these errors.
+* CSS-validator All Pags results: [media/CSSResults.JPG]
 
-* CSS-validator results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640185442/css_results_ajogzr.jpg]
+* PEP8 results: [media/PEP8Results.JPG]
 
-* PEP8 results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640180546/pep8_results_xmkl2g.jpg]
+* HTML Homepage results: [media/HTMLHomepageResults.JPG]
+  * I will investigate further to why these errors have shown.
 
-* HTML results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640191281/html_results_cmshpo.jpg]
+* HTML Product Page results: [media/HTMLProductPageResults.JPG]
+  * I will investigate further to why these errors have shown.
+
+* HTML Customer Story results: [media/HTMLCustomerStoriesResults.JPG]
   * I will investigate further to why these errors have shown.
 
 * TestCase Django - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
 
 * Jest - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
 
-### Bugs
+### Bugs need fixing
+* Favicon icon isn't showing on all pages although in the head of my base.html
+* Testing has been implemented but errors need further investigating. (I ran out of time I've had Covid - Sorry)
+* Css for mailchimp isn't pulling through to heroku deployed version but is showing on my local server, css for this is in teh head of teh base.html.
 
 #### Django 
 
-I wasn't very confident in my Django project, therfore having to delete it all and starting again, after lots of tutor help and my fellow coders on slack I managed to successfully install my project for a blog and log in log out funtion. Also following the, 'I think therefor I blog', walkthrough helped massively.
+I wasn't very confident in my Django project, therfore having to delete it all and starting again, after lots of tutor help and my fellow coders on slack I managed to successfully install my project for a story and log in log out funtion along with the function for teh logged in usedr to upload their own story and comment on others. Also following the, 'Boutique_ado', walkthrough helped massively.
 
 
 ## Deployment
