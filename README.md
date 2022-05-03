@@ -64,7 +64,7 @@ The end goal of the project is to sell a high end premium product.
 
 ### UX stories
 
-Buyer Journey can be found [here](media/Buyer_journey_map.JPG)
+Buyer Journey can be found [here](media/Buyer_Journey_map.JPG)
 
 * As a user I want to find a high end product for my property.
 * As a user I want to log in to my own account.
